@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main ()
+
+{
+	int n;
+	printf("Vvedite chislo n:");
+	scanf("\n%d", &n);
+	printf("\n%o", n);
+	printf("\n%x", n);
+	printf("\n%d", n);
+		
+	return 0;
+}
